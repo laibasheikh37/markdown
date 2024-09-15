@@ -5,7 +5,7 @@
 We will initialize an empty list to store the user's favorite numbers and prompt for their name:
 
 number_list = []
-name = input("Enter your name: ")
+name=input("Enter your name: ")
 
 ### Step 2: Loop for Number Input ###
 We will use a for loop to ask the user for three numbers and add them to the number_list.
