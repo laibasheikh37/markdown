@@ -18,6 +18,7 @@ We will use a for loop to ask the user for three numbers and add them to the num
 We will greet the user by printing their name.
 
 for num in number_list:
+
     if num % 2 == 0:
         print(f"The number {num} is even.")
     else:
@@ -29,7 +30,9 @@ We will print the result of the even/odd check directly as part of the loop from
 We will print each number and its square using another loop.
 
 print()
+
 for num in number_list:
+
     print(f"The number {num} and its square: ({num}, {num ** 2})")
     
 ### Step 7: Calculate Sum of Numbers ###
@@ -46,6 +49,7 @@ print(f"\nHere is the sum of your favorite numbers: {sum_numbers}")
 We will check if the sum is 0 or 1 and print that it is not a prime number.
 
 if sum_numbers == 0 or sum_numbers == 1:
+
     print(f"{sum_numbers} is not a prime number.")
 
     
@@ -53,9 +57,12 @@ if sum_numbers == 0 or sum_numbers == 1:
 We will check whether the sum is divisible by any number from 2 to sum_numbers-1. If it is, then the sum is not prime.
 
 elif sum_numbers > 1:
+
     prime = True
     for i in range(2, sum_numbers):
+    
         if sum_numbers % i == 0:
+        
             prime = False
             break
             
@@ -63,8 +70,11 @@ elif sum_numbers > 1:
 We will print whether the sum is a prime number based on the prime check from step 10.
 
 if prime:
+
     print(f"Wow! {sum_numbers} is a prime number.")
+    
 else:
+
     print(f"Alas! {sum_numbers} is not a prime number.")
     
 ### Step 12: End Program ###
