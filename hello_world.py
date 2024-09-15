@@ -1,0 +1,20 @@
+print("hello world")
+print("laiba")
+print("Laiba Sheikh")
+print("1,2,3")
+print("AI stands for\nArtificial Intelligence")
+print("HELLO \tWorld")
+print("eat,sleep,work",sep=',')
+print("9-23-40",sep='-')
+print("beauty",end=" ")
+print("butterfly")
+print("99",end="")
+print("100")
+print("\"my world!\"")
+print("to print backslash:\\")
+age= 21
+print(f"I am {age} years old")
+number=7
+print(f"here the number is {number}")
+for x in range (1,6):
+    print(x)

@@ -1,0 +1,11 @@
+print("laiba sheikh")
+print(1,2,3)
+print("hello \n world")
+print("hello \tworld")
+print("apple,banana,orange",sep='')
+print("1-2-3",sep='')
+print("hello",end='')
+print("world")
+print("1",end='')
+print("2")
+print("\"h
