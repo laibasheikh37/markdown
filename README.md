@@ -2,7 +2,7 @@
 # Number Exploration Tool #
 ## Instructions ##
 ### Step 1: Initialize Variables ###
-We will initialize an empty list to store the user's favorite numbers and prompt for their name.
+We will initialize an empty list to store the user's favorite numbers and prompt for their name:
 
 number_list = []
 name = input("Enter your name: ")
@@ -36,12 +36,12 @@ for num in number_list:
     print(f"The number {num} and its square: ({num}, {num ** 2})")
     
 ### Step 7: Calculate Sum of Numbers ###
-We will calculate the sum of all the numbers in number_list.
+We will calculate the sum of all the numbers in number_list:
 
 sum_numbers = sum(number_list)
 
 ### Step 8: Print Sum ###
-We will print the sum of the favorite numbers.
+We will print the sum of the favorite numbers:
 
 print(f"\nHere is the sum of your favorite numbers: {sum_numbers}")
 
